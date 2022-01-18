@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#container{
+    background: url('../imagens/fundo.png') repeat-x;
+    height: 235px;
+}
+#cabecalho{
+    width: 920px;
+    margin: 0 auto;
+}
+#logo{
+    width: 400px;
+    padding: 20 0px;
+    margin-top: 20px;
+    float: left;
+}
+#topo{
+    width: 400px;
+    float: right;
+}
+ul#menu{
+    width: 600px;
+    margin-top: -50px;
+    display: flex;
+    float: left;
+    list-style-type: none;
+    background-color: #DE003E;
+    border-radius: 50%;
+}
+ul#menu li{
+    float: left;
+}
+ul#menu a{
+    display: block;
+    height: 2em;
+    padding: 0 1em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #fff;
+    background: url('../imagens/divisor.png') repeat-y;
+}
+ul#menu .primeiro a{
+    background: none;
+}
+ul#menu a:hover{
+    color: #8a9db1;
+    background: rgb(131, 0, 0);
+    border-radius: 50%;
+}
+ul#menu .atual a{
+    color: #8a9db1;
+    background: rgb(131, 0, 0);
+    border-radius: 50%;
+}
+#corpo{
+    width: 920px;
+    margin: 0 auto;
+}
+#menu-lateral{
+    width: 200px;
+    float: left;
+}
+#menu-lateral h2{
+    color: #fff;
+    background: #294C71;
+    padding: 0 10px;
+}
+ul#lateral{
+    list-style-type: none;
+    padding: 10px;
+    text-indent: 20px;
+    line-height: 30px;
+}
+ul#lateral a{
+    text-decoration: none;
+    color: #294C71;
+}
+#noticias{
+    width: 700px;
+    float: right;
+}
+#noticias p{
+    text-align: justify;
+}
+#entrevistas{
+    width: 300px;
+    height: 330px;
+    display: block;
+    float: left;
+    padding: 0 20px;
+}
+#entrevistas img{
+    width: 300px;
+}
+#entrevistas h2{
+    color: #fff;
+    background: #294C71;
+    text-indent: 10px;
+}
+#destaque{
+    width: 300px;
+    height: 330px;
+    display: block;
+    float: right;
+    padding: 0 20px;
+}
+#destaque img{
+    width: 300px;
+}
+#destaque h2{
+    color: #fff;
+    background: #294C71;
+    text-indent: 10px;
+}
+#mundo{
+    width: 300px;
+    height: auto;
+    display: block;
+    float: left;
+    padding: 0 20px;
+}
+#mundo h2{
+    color: #fff;
+    background: #294C71;
+    text-indent: 10px;
+}
+#mundo h4{
+    color: #294C71;
+}
+#mundo img{
+    width: 100px;
+    margin-right: 5px;
+    float: left;
+}
+#mundo #mundo-texto {
+    width: 290px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    float: right;
+    font-size: 0.8em;
+    text-align: justify;
+}
+#mundo a{
+    color: black;
+    text-decoration: none;
+}
+#recentes{
+    width: 300px;
+    height: auto;
+    display: block;
+    float: left;
+    padding: 0 20px;
+}
+#recentes h2{
+    color: #fff;
+    background: #294C71;
+    text-indent: 10px;
+}
+#recentes h4{
+    color: #294C71;
+}
+#recentes img{
+    width: 100px;
+    margin-right: 5px;
+    float: left;
+}
+#recentes #recentes-texto {
+    width: 290px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    float: right;
+    font-size: 0.8em;
+    text-align: justify;
+}
+#recentes a{
+    color: black;
+    text-decoration: none;
+}
+#entrevistas,
+#destaque,
+#mundo,
+#recente, 
+h1, h2, h3, h4, p{
+    padding-bottom: 5px;
+}
+#cadastro{
+    padding: 10px 0;
+}
+input.submit{
+    margin-top: 5px;
+    margin-left: 45px;
+    padding: 5px;
+    line-height: 5px;
+    width: 60%;
+    font-weight: bold;
+    color: #fff;
+    background: #DE003E;
+}
+input.email{
+    width: 200px;
+    line-height: 20px;
+}
